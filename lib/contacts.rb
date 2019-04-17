@@ -28,6 +28,12 @@ def remove_strawberry(contacts)
      }
    }
   
-  
+  contacts.each do |person, data|
+    data.each do |data, info|
+      if info == "strawberry"
+        puts "defe"
+      end
+    end 
+  end 
   
 end
